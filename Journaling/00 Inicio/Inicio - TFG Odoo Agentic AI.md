@@ -1,5 +1,6 @@
 ---
 type: dashboard
+area: proyecto
 project: TFG Odoo Agentic AI
 status: active
 tags:
@@ -19,6 +20,7 @@ tags:
 - [[MOC - Odoo API y modelos]]
 - [[MOC - Integración agentic]]
 - [[MOC - Registro técnico]]
+- [[MOC - Journaling y control de versiones]]
 
 ## Estado actual
 
@@ -51,4 +53,6 @@ tags:
 2. Registra problemas y soluciones en [[Plantilla - Incidencia técnica]].
 3. Registra procedimientos reproducibles en [[Plantilla - Procedimiento técnico]].
 4. Usa [[Plantilla - Concepto]] para conceptos técnicos.
-5. Revisa periódicamente [[MOC - Registro técnico]] para evitar que las notas queden aisladas.
+5. Registra decisiones en [[Plantilla - Decisión técnica]].
+6. Consulta [[Taxonomía de propiedades y etiquetas]] para mantener consistencia.
+7. Revisa periódicamente [[MOC - Registro técnico]] para evitar que las notas queden aisladas.
