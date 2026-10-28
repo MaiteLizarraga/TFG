@@ -1,10 +1,10 @@
 ---
-type: concept
+type: concepto
+area:
 status: draft
 created: "{{date:YYYY-MM-DD}}"
 project: TFG Odoo Agentic AI
-tags:
-  - concept
+tags: []
 ---
 
 # {{title}}
