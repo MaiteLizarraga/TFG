@@ -1,11 +1,11 @@
 ---
-type: project
+type: concepto
+area: proyecto
 status: active
 project: TFG Odoo Agentic AI
 tags:
-  - tfg
-  - supply-chain
-  - agentic-ai
+  - arquitectura/multiagente
+  - odoo/modulos
 ---
 
 # Contexto y alcance del TFG

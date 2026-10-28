@@ -1,10 +1,12 @@
 ---
-type: decision
+type: decision-tecnica
+area: arquitectura
 status: accepted
 project: TFG Odoo Agentic AI
 tags:
-  - tfg
-  - architecture/decision
+  - arquitectura/multiagente
+  - arquitectura/orquestacion
+  - arquitectura/human-in-the-loop
 ---
 
 # Decisiones arquitectónicas del sistema

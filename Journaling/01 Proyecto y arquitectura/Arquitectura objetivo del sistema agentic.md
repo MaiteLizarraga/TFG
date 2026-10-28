@@ -1,11 +1,11 @@
 ---
-type: architecture
+type: concepto
+area: arquitectura
 status: planned
 project: TFG Odoo Agentic AI
 tags:
-  - tfg
-  - agentic-ai
-  - architecture
+  - arquitectura/multiagente
+  - arquitectura/orquestacion
 ---
 
 # Arquitectura objetivo del sistema agentic

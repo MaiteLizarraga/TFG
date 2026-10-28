@@ -1,9 +1,9 @@
 ---
 type: moc
-area: architecture
+area: arquitectura
 project: TFG Odoo Agentic AI
 tags:
-  - tfg
+  - documentacion/moc
   - obsidian/moc
 ---
 
