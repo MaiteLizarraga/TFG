@@ -1,11 +1,11 @@
 ---
-type: incident
+type: incidencia
+area:
 status: open
 created: "{{date:YYYY-MM-DD}}"
 project: TFG Odoo Agentic AI
 severity: medium
-tags:
-  - troubleshooting
+tags: []
 ---
 
 # {{title}}
