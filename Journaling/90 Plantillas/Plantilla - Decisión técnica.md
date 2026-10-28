@@ -1,10 +1,10 @@
 ---
-type: decision
+type: decision-tecnica
+area:
 status: proposed
 created: "{{date:YYYY-MM-DD}}"
 project: TFG Odoo Agentic AI
-tags:
-  - architecture/decision
+tags: []
 ---
 
 # {{title}}
