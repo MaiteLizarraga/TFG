@@ -34,11 +34,12 @@ Usa etiquetas jerárquicas con nombres breves y en minúsculas. La etiqueta comp
 |---|---|
 | Odoo | `odoo/api`, `odoo/orm`, `odoo/modelos`, `odoo/modulos` |
 | Arquitectura | `arquitectura/multiagente`, `arquitectura/orquestacion`, `arquitectura/human-in-the-loop` |
-| Infraestructura | `infraestructura/docker`, `infraestructura/postgresql`, `infraestructura/ubuntu` |
+| Infraestructura | `infraestructura/docker`, `infraestructura/postgresql`, `infraestructura/ubuntu`, `infraestructura/virtualbox` |
 | Integración | `integracion/mcp`, `integracion/autenticacion`, `integracion/permisos` |
 | Observabilidad | `observabilidad/trazas`, `observabilidad/langfuse` |
 | Datos | `datos/sinteticos`, `datos/modelo-relacional` |
-| Documentación | `documentacion/moc`, `documentacion/procedimiento`, `documentacion/decision-tecnica`, `documentacion/concepto`, `documentacion/incidencia` |
+| Documentación | `documentacion/moc`, `documentacion/procedimiento`, `documentacion/decision-tecnica`, `documentacion/concepto`, `documentacion/incidencia`, `documentacion/convenciones` |
+| Git y Obsidian | `git/estructura`, `obsidian/workflow`, `obsidian/dashboard`, `obsidian/taxonomia`, `obsidian/moc` |
 
 Esta lista es una base, no un catálogo cerrado. Añade etiquetas cuando aporten una forma útil de recuperar o relacionar notas; evita crear sinónimos para el mismo concepto.
 

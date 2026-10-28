@@ -1,9 +1,10 @@
 ---
 type: moc
-area: engineering-log
+area: infraestructura
 project: TFG Odoo Agentic AI
+status: active
 tags:
-  - tfg
+  - documentacion/moc
   - obsidian/moc
 ---
 
