@@ -1,10 +1,10 @@
 ---
 type: moc
-area: journaling-version-control
+area: journaling
 project: TFG Odoo Agentic AI
 status: active
 tags:
-  - tfg
+  - documentacion/moc
   - obsidian/moc
 ---
 
@@ -20,6 +20,10 @@ tags:
 ## Colaboración con ChatGPT
 
 - [[Colaboración con ChatGPT mediante GitHub]]
+
+## Convenciones de la bóveda
+
+- [[Taxonomía de propiedades y etiquetas]]
 
 ## Automatización pendiente
 
