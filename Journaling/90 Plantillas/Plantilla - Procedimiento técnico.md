@@ -1,10 +1,10 @@
 ---
-type: procedure
+type: procedimiento
+area:
 status: draft
 created: "{{date:YYYY-MM-DD}}"
 project: TFG Odoo Agentic AI
-tags:
-  - procedure
+tags: []
 ---
 
 # {{title}}
@@ -15,13 +15,13 @@ tags:
 
 ## Prerrequisitos
 
-- [ ] 
+- [ ]
 
 ## Procedimiento
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 ## Resultado esperado
 
@@ -33,7 +33,7 @@ tags:
 
 ## Verificación
 
-- [ ] 
+- [ ]
 
 ## Riesgos / reversión
 
