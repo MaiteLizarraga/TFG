@@ -1,10 +1,10 @@
 ---
-type: concept
+type: concepto
+area: arquitectura
 project: TFG Odoo Agentic AI
 tags:
-  - human-in-the-loop
-  - fde
-  - agentic-ai
+  - arquitectura/human-in-the-loop
+  - arquitectura/multiagente
 ---
 
 # Human-in-the-loop y rol del FDE

@@ -1,10 +1,11 @@
 ---
-type: agent
+type: concepto
+area: integracion
 status: planned
 project: TFG Odoo Agentic AI
 tags:
-  - agentic-ai
-  - manufacturing
+  - arquitectura/multiagente
+  - odoo/modulos
 ---
 
 # Manufacturing Agent

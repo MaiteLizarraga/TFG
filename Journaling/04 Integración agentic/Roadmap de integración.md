@@ -1,11 +1,11 @@
 ---
-type: roadmap
+type: referencia
+area: integracion
 status: active
 project: TFG Odoo Agentic AI
 tags:
-  - tfg
-  - roadmap
-  - agentic-ai
+  - arquitectura/multiagente
+  - integracion/mcp
 ---
 
 # Roadmap de integración

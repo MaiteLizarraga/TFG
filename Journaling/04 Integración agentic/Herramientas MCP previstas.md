@@ -1,11 +1,11 @@
 ---
-type: design
+type: referencia
+area: integracion
 status: planned
 project: TFG Odoo Agentic AI
 tags:
-  - mcp
-  - tools
-  - agentic-ai
+  - integracion/mcp
+  - arquitectura/multiagente
 ---
 
 # Herramientas MCP previstas

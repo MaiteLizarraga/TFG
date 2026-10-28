@@ -1,10 +1,11 @@
 ---
-type: agent
+type: concepto
+area: integracion
 status: planned
 project: TFG Odoo Agentic AI
 tags:
-  - agentic-ai
-  - purchase
+  - arquitectura/multiagente
+  - odoo/modulos
 ---
 
 # Purchase Agent

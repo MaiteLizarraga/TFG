@@ -1,11 +1,12 @@
 ---
-type: concept
+type: concepto
+area: observabilidad
 status: planned
 project: TFG Odoo Agentic AI
 tags:
-  - observability
-  - langfuse
-  - agentic-ai
+  - observabilidad/trazas
+  - observabilidad/langfuse
+  - arquitectura/multiagente
 ---
 
 # Observabilidad del sistema agentic

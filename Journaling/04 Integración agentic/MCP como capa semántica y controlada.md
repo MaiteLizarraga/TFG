@@ -1,12 +1,12 @@
 ---
-type: concept
+type: concepto
+area: integracion
 status: planned
 project: TFG Odoo Agentic AI
 tags:
-  - mcp
-  - agentic-ai
-  - security
-  - architecture
+  - integracion/mcp
+  - integracion/permisos
+  - arquitectura/human-in-the-loop
 ---
 
 # MCP como capa semántica y controlada

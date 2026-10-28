@@ -1,10 +1,11 @@
 ---
-type: agent
+type: concepto
+area: integracion
 status: planned
 project: TFG Odoo Agentic AI
 tags:
-  - agentic-ai
-  - sales
+  - arquitectura/multiagente
+  - odoo/modulos
 ---
 
 # Sales Agent

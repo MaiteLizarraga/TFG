@@ -1,11 +1,11 @@
 ---
-type: design
+type: decision-tecnica
+area: arquitectura
 status: planned
 project: TFG Odoo Agentic AI
 tags:
-  - incident-management
-  - database
-  - agentic-ai
+  - datos/modelo-relacional
+  - arquitectura/multiagente
 ---
 
 # Persistencia de `IncidentAnalysis`
