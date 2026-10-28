@@ -1,10 +1,10 @@
 ---
-type: technology
+type: concepto
+area: infraestructura
 status: active
 project: TFG Odoo Agentic AI
 tags:
-  - docker
-  - infrastructure
+  - infraestructura/docker
 ---
 
 # Docker y Docker Compose

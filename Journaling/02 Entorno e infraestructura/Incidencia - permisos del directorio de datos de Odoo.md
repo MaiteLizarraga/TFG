@@ -1,12 +1,11 @@
 ---
-type: incident
+type: incidencia
+area: infraestructura
 status: resolved
 project: TFG Odoo Agentic AI
 tags:
-  - odoo
-  - docker
-  - permissions
-  - troubleshooting
+  - infraestructura/docker
+  - documentacion/incidencia
 ---
 
 # Incidencia — permisos del directorio de datos de Odoo

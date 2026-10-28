@@ -1,11 +1,10 @@
 ---
-type: technology
+type: referencia
+area: odoo
 status: selected
 project: TFG Odoo Agentic AI
 tags:
-  - odoo
-  - erp
-  - tfg
+  - odoo/modulos
 ---
 
 # Odoo 19 Community como ERP del proyecto

@@ -1,11 +1,11 @@
 ---
-type: environment
+type: referencia
+area: infraestructura
 status: active
 project: TFG Odoo Agentic AI
 tags:
-  - ubuntu
-  - virtualbox
-  - tfg
+  - infraestructura/ubuntu
+  - infraestructura/virtualbox
 ---
 
 # Entorno Ubuntu-TFG
