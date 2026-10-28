@@ -9,6 +9,7 @@ tags:
   - obsidian
   - git
   - github
+  - odoo
 ---
 
 # 28 OCT — Reorganización del vault y sincronización con GitHub
@@ -20,12 +21,13 @@ tags:
 - Se decidió que `__WIP_to_journal/` también se sincroniza con el repositorio privado de GitHub; por tanto, no es una carpeta exclusivamente local.
 - Se añadió a `.gitignore` la regla `/Admin/` para excluir el contenido administrativo situado en la raíz del vault. Se mantienen también las exclusiones de `.obsidian/` y `Welcome.md`.
 - Se revisó el flujo manual de control de versiones y se completó un `commit` y un `push` a la rama `main`.
-- Se identificó la necesidad de reflejar la estructura actual y el procedimiento de publicación en `Journaling/06 Journaling y control de versiones/`.
 - Se verificó la conexión de ChatGPT con el repositorio privado `MaiteLizarraga/TFG` y sus permisos de escritura en la rama `main`.
-- Se acordó que ChatGPT podrá crear y modificar archivos directamente en GitHub como parte de las tareas encargadas, consultando antes las notas existentes.
-- Se estableció que los cambios importantes —como borrar archivos, reorganizar el vault o alterar decisiones documentadas— requieren confirmación previa.
-- Se creó la nota [[Colaboración con ChatGPT mediante GitHub]] en `Journaling/06 Journaling y control de versiones/` para documentar este flujo de trabajo.
-- Se acordó registrar cada jornada de trabajo en dos niveles: documentar el conocimiento o procedimiento duradero en `Journaling/` y añadir el registro de actividad a la nota del día en `__WIP_to_journal/`. Todos los cambios de una misma fecha se acumulan bajo esa fecha, sin crear una nota diaria nueva por cada tarea.
+- Se acordó que ChatGPT podrá crear y modificar archivos directamente en GitHub como parte de las tareas encargadas, consultando antes las notas existentes. Los cambios importantes —como borrar archivos, reorganizar el vault o alterar decisiones documentadas— requieren confirmación previa.
+- Se creó la nota [[Colaboración con ChatGPT mediante GitHub]] en `Journaling/06 Journaling y control de versiones/` y se añadió al MOC de esa sección.
+- Se acordó registrar cada jornada en dos niveles: el conocimiento duradero en `Journaling/` y la actividad del día en la nota correspondiente de `__WIP_to_journal/`. Todas las tareas de una fecha se acumulan en una sola nota diaria.
+- Se trasladó el contenido útil de `01 OCT - Dependencias Odoo.md` a [[Dependencias de módulos Odoo y datos de negocio]], en `Journaling/03 Odoo API y modelos/`. La nota temática documenta las dependencias directas verificadas, la distinción entre el grafo de módulos y el grafo de datos de negocio, la consulta recursiva y sus implicaciones para generar datos sintéticos.
+- Se añadió la nueva nota de dependencias al [[MOC - Odoo API y modelos]].
+- Se eliminó de GitHub el archivo vacío `01 OCT - Incorporar Jev a orquestador - Reto 1.md`, tal como se solicitó.
 
 ## Flujo de trabajo acordado
 
@@ -33,7 +35,7 @@ tags:
 2. ChatGPT consulta el contenido existente antes de modificar archivos y realiza los cambios autorizados directamente en GitHub.
 3. El conocimiento estable o los procedimientos se documentan en la sección temática correspondiente de `Journaling/`.
 4. La actividad realizada se añade a la nota del día correspondiente en `__WIP_to_journal/`; se reutiliza la nota de la fecha actual para agrupar las tareas del día.
-5. ChatGPT comunica qué archivos ha creado o modificado y el commit generado.
+5. ChatGPT comunica qué archivos ha creado o modificado y los commits generados.
 6. Para sincronizar los cambios con el vault local, ejecutar desde la raíz del repositorio:
 
 ```bash
@@ -73,4 +75,4 @@ git status
 
 ## Nota de estado
 
-El commit y el push mencionados al inicio de esta nota ya se habían completado antes de redactarla. Los cambios posteriores descritos aquí se han registrado directamente en GitHub mediante commits. La sincronización del vault local se realiza aparte mediante `git pull origin main`.
+Los cambios descritos en esta nota se han registrado directamente en GitHub mediante commits. La sincronización del vault local se realiza aparte mediante `git pull origin main`.
