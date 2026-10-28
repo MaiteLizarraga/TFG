@@ -10,7 +10,7 @@ tags:
 
 # MOC — Journaling y control de versiones
 
-## Objetivo y configuración
+## Configuración y repositorio
 
 - [[GitHub como repositorio de seguimiento del TFG]]
 - [[Configuración local de Git para el journaling]]
@@ -23,4 +23,4 @@ tags:
 
 ## Relación con el proyecto
 
-El repositorio versiona el journaling del TFG para que el tutor pueda consultar la evolución del trabajo, revisar cambios y acceder al historial. Esta documentación está separada del entorno de ejecución de Odoo.
+El repositorio versiona tanto el conocimiento consolidado de `Journaling/` como las notas provisionales de `__WIP_to_journal/`. La carpeta `Admin/` queda excluida mediante `.gitignore`. Este sistema de documentación y control de versiones es independiente del entorno de ejecución de Odoo.
