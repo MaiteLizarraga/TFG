@@ -21,7 +21,7 @@ tags:
 
 - [[Colaboración con ChatGPT mediante GitHub]]
 
-## Convenciones de la bóveda
+## Convenciones de la vault
 
 - [[Taxonomía de propiedades y etiquetas]]
 
