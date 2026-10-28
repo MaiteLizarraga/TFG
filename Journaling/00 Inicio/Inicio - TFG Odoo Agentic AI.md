@@ -47,7 +47,7 @@ tags:
 - No se implementan un Software Engineer Agent ni un QA Agent.
 - La documentación del TFG se mantiene separada del entorno de ejecución.
 
-## Cómo usar esta bóveda
+## Cómo usar esta vault
 
 1. Añade conceptos nuevos como notas atómicas y enlázalos con `[[enlaces internos]]`.
 2. Registra problemas y soluciones en [[Plantilla - Incidencia técnica]].
