@@ -2,8 +2,11 @@
 type: moc
 area: odoo
 project: TFG Odoo Agentic AI
+status: active
 tags:
-  - odoo
+  - odoo/api
+  - odoo/modelos
+  - documentacion/moc
   - obsidian/moc
 ---
 
