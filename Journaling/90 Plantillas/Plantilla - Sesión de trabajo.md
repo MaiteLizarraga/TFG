@@ -1,9 +1,9 @@
 ---
-type: work-session
+type: sesion
+area:
 created: "{{date:YYYY-MM-DD}}"
 project: TFG Odoo Agentic AI
-tags:
-  - engineering-log
+tags: []
 ---
 
 # Sesión de trabajo — {{date:YYYY-MM-DD}}
@@ -12,21 +12,21 @@ tags:
 
 ## Trabajo realizado
 
-- [ ] 
+- [ ]
 
 ## Decisiones tomadas
 
-- 
+-
 
 ## Problemas encontrados
 
-- 
+-
 
 ## Estado final
 
 ## Próximos pasos
 
-- [ ] 
+- [ ]
 
 ## Notas relacionadas
 
