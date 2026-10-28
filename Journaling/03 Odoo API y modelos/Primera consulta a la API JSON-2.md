@@ -1,11 +1,11 @@
 ---
-type: experiment
+type: procedimiento
+area: odoo
 status: successful
 project: TFG Odoo Agentic AI
 tags:
-  - odoo
-  - api
-  - experiment
+  - odoo/api
+  - integracion/autenticacion
 ---
 
 # Primera consulta a la API JSON-2

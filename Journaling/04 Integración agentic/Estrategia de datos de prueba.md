@@ -1,11 +1,12 @@
 ---
-type: design
+type: decision-tecnica
+area: datos
 status: planned
 project: TFG Odoo Agentic AI
 tags:
-  - test-data
-  - odoo
-  - supply-chain
+  - datos/sinteticos
+  - odoo/api
+  - datos/modelo-relacional
 ---
 
 # Estrategia de datos de prueba

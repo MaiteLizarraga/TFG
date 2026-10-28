@@ -1,10 +1,10 @@
 ---
-type: concept
+type: concepto
+area: odoo
 project: TFG Odoo Agentic AI
 tags:
-  - odoo
-  - data-model
-  - purchase
+  - odoo/modelos
+  - datos/modelo-relacional
 ---
 
 # Relación entre pedido de compra y líneas

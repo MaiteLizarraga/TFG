@@ -1,13 +1,12 @@
 ---
-type: reference
+type: referencia
 area: odoo
 project: TFG Odoo Agentic AI
 status: active
 tags:
-  - odoo
-  - dependencias
-  - datos-sinteticos
-  - postgresql
+  - odoo/modulos
+  - datos/sinteticos
+  - infraestructura/postgresql
 ---
 
 # Dependencias de módulos Odoo y datos de negocio

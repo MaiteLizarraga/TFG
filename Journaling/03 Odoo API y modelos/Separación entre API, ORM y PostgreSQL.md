@@ -1,12 +1,12 @@
 ---
-type: concept
+type: concepto
+area: odoo
 status: understood
 project: TFG Odoo Agentic AI
 tags:
-  - odoo
-  - api
-  - orm
-  - architecture
+  - odoo/api
+  - odoo/orm
+  - infraestructura/postgresql
 ---
 
 # Separación entre API, ORM y PostgreSQL

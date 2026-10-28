@@ -1,11 +1,11 @@
 ---
-type: exploration
+type: referencia
+area: odoo
 status: in-progress
 project: TFG Odoo Agentic AI
 tags:
-  - odoo
-  - purchase
-  - data-model
+  - odoo/modelos
+  - odoo/modulos
 ---
 
 # Exploración de `purchase.order`
