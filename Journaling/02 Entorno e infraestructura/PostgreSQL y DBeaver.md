@@ -1,11 +1,11 @@
 ---
-type: technology
+type: referencia
+area: infraestructura
 status: active
 project: TFG Odoo Agentic AI
 tags:
-  - postgresql
-  - dbeaver
-  - database
+  - infraestructura/postgresql
+  - datos/modelo-relacional
 ---
 
 # PostgreSQL y DBeaver

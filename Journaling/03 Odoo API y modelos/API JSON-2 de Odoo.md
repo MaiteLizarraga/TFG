@@ -1,11 +1,10 @@
 ---
-type: technology
+type: referencia
+area: odoo
 status: tested
 project: TFG Odoo Agentic AI
 tags:
-  - odoo
-  - api
-  - json
+  - odoo/api
 ---
 
 # API JSON-2 de Odoo

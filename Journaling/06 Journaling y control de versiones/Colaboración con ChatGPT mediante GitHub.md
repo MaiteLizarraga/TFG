@@ -1,13 +1,12 @@
 ---
-type: process
-area: journaling-version-control
+type: procedimiento
+area: journaling
 project: TFG Odoo Agentic AI
 status: active
 created: 2026-10-28
 tags:
-  - tfg
-  - github
   - obsidian/workflow
+  - git/estructura
 ---
 
 # Colaboración con ChatGPT mediante GitHub

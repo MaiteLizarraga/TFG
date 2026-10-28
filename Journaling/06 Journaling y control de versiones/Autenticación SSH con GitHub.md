@@ -1,13 +1,11 @@
 ---
-type: procedure
-area: journaling-version-control
+type: procedimiento
+area: journaling
 project: TFG Odoo Agentic AI
 status: implemented
 tags:
-  - tfg
-  - git
-  - ssh
-  - github
+  - integracion/autenticacion
+  - documentacion/procedimiento
 ---
 
 # Autenticación SSH con GitHub

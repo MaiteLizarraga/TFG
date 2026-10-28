@@ -4,7 +4,6 @@ area: proyecto
 project: TFG Odoo Agentic AI
 status: active
 tags:
-  - tfg
   - obsidian/dashboard
 ---
 

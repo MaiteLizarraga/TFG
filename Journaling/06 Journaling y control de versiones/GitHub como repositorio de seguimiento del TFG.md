@@ -1,12 +1,11 @@
 ---
-type: concept
-area: journaling-version-control
+type: concepto
+area: journaling
 project: TFG Odoo Agentic AI
 status: implemented
 tags:
-  - tfg
-  - git
-  - github
+  - git/estructura
+  - obsidian/workflow
 ---
 
 # GitHub como repositorio de seguimiento del TFG

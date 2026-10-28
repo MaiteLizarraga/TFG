@@ -1,11 +1,13 @@
 ---
-type: status
-status: operational-as-documented
+type: referencia
+area: infraestructura
 project: TFG Odoo Agentic AI
+status: operational-as-documented
 last_reviewed: 2026-09
 tags:
-  - tfg
-  - environment
+  - infraestructura/ubuntu
+  - infraestructura/docker
+  - infraestructura/postgresql
 ---
 
 # Estado actual del entorno

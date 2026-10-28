@@ -1,10 +1,9 @@
 ---
-type: concept
+type: concepto
+area: odoo
 project: TFG Odoo Agentic AI
 tags:
-  - odoo
-  - orm
-  - database
+  - odoo/orm
 ---
 
 # ORM de Odoo

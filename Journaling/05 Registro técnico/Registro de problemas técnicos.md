@@ -1,9 +1,11 @@
 ---
-type: index
+type: referencia
+area: infraestructura
 project: TFG Odoo Agentic AI
 tags:
-  - troubleshooting
-  - engineering-log
+  - documentacion/incidencia
+  - infraestructura/docker
+  - odoo/api
 ---
 
 # Registro de problemas técnicos

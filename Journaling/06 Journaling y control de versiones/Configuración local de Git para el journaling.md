@@ -1,11 +1,11 @@
 ---
-type: procedure
-area: journaling-version-control
+type: procedimiento
+area: journaling
 project: TFG Odoo Agentic AI
 status: implemented
 tags:
-  - tfg
-  - git
+  - documentacion/procedimiento
+  - git/estructura
 ---
 
 # Configuración local de Git para el journaling

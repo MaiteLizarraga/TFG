@@ -1,11 +1,11 @@
 ---
-type: concept
+type: concepto
+area: odoo
 status: configured
 project: TFG Odoo Agentic AI
 tags:
-  - odoo
-  - security
-  - api
+  - odoo/api
+  - integracion/autenticacion
 ---
 
 # Autenticación mediante API Key

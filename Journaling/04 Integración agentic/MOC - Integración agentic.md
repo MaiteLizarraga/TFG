@@ -1,10 +1,10 @@
 ---
 type: moc
-area: agentic-integration
+area: integracion
 project: TFG Odoo Agentic AI
+status: active
 tags:
-  - tfg
-  - agentic-ai
+  - documentacion/moc
   - obsidian/moc
 ---
 

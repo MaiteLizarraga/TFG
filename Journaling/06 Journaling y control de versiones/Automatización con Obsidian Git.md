@@ -1,12 +1,11 @@
 ---
-type: task
-area: journaling-version-control
+type: procedimiento
+area: journaling
 project: TFG Odoo Agentic AI
 status: planned
 tags:
-  - tfg
-  - obsidian
-  - git
+  - obsidian/workflow
+  - documentacion/procedimiento
 ---
 
 # Automatización con Obsidian Git
