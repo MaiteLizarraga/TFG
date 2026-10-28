@@ -16,6 +16,7 @@ tags:
 - [[API JSON-2 de Odoo]]
 - [[Autenticación mediante API Key]]
 - [[Relación entre pedido de compra y líneas]]
+- [[Dependencias de módulos Odoo y datos de negocio]]
 
 ## Modelos de interés
 
