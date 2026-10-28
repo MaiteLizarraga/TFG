@@ -76,3 +76,12 @@ git status
 ## Nota de estado
 
 Los cambios descritos en esta nota se han registrado directamente en GitHub mediante commits. La sincronización del vault local se realiza aparte mediante `git pull origin main`.
+
+## 29 OCT — Convención de propiedades y etiquetas en Obsidian
+
+- Se definió la nota [[Taxonomía de propiedades y etiquetas]] para unificar la clasificación de la bóveda.
+- Se estableció que `type` identifica el tipo de nota, `area` el ámbito principal y `tags` los conceptos técnicos.
+- Se definieron familias de etiquetas jerárquicas breves: `odoo/*`, `arquitectura/*`, `infraestructura/*`, `integracion/*`, `observabilidad/*`, `datos/*` y `documentacion/*`.
+- Se actualizaron el README, el dashboard inicial y las plantillas de concepto, decisión técnica, incidencia, procedimiento y sesión de trabajo.
+- Se enlazó la taxonomía desde el MOC de journaling y se normalizaron las etiquetas del MOC de Odoo.
+- La normalización del resto de notas existentes queda para una revisión progresiva, cuando se editen, para evitar cambios masivos innecesarios.
