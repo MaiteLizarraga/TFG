@@ -19,6 +19,14 @@ Este paquete contiene notas Markdown enlazadas, mapas de contenido (MOC), un das
 - Notas atómicas con propiedades YAML y enlaces internos `[[...]]`.
 - Registro de decisiones, conceptos, procedimientos, pruebas y problemas.
 - Plantillas para conceptos, procedimientos, incidencias, decisiones y sesiones de trabajo.
+- Convención de propiedades y etiquetas en [[Taxonomía de propiedades y etiquetas]].
+
+## Convenciones de documentación
+
+- `type` clasifica la nota; `area` indica su ámbito principal.
+- `tags` describe conceptos técnicos con etiquetas jerárquicas breves, por ejemplo `odoo/api` o `integracion/mcp`.
+- Los enlaces internos y los MOC representan las relaciones entre notas.
+- La taxonomía se mantiene en [[Taxonomía de propiedades y etiquetas]].
 
 ## Importante
 
