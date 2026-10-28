@@ -1,11 +1,11 @@
 ---
-type: dataset
+type: referencia
+area: datos
 status: available
 project: TFG Odoo Agentic AI
 tags:
-  - odoo
-  - test-data
-  - supply-chain
+  - datos/sinteticos
+  - odoo/modelos
 ---
 
 # Carga de datos de demostración

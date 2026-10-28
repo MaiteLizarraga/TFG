@@ -1,11 +1,11 @@
 ---
-type: procedure
+type: procedimiento
+area: infraestructura
 status: resolved
 project: TFG Odoo Agentic AI
 tags:
-  - odoo
-  - docker
-  - troubleshooting
+  - infraestructura/docker
+  - documentacion/procedimiento
 ---
 
 # Configuración de Odoo dentro del contenedor

@@ -1,11 +1,11 @@
 ---
-type: configuration
+type: procedimiento
+area: infraestructura
 status: current-as-documented
 project: TFG Odoo Agentic AI
 tags:
-  - docker
-  - odoo
-  - postgresql
+  - infraestructura/docker
+  - infraestructura/postgresql
 ---
 
 # Configuración Docker Compose de Odoo

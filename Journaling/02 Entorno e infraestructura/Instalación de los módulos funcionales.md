@@ -1,10 +1,11 @@
 ---
-type: procedure
+type: procedimiento
+area: odoo
 status: completed
 project: TFG Odoo Agentic AI
 tags:
-  - odoo
-  - modules
+  - odoo/modulos
+  - infraestructura/docker
 ---
 
 # Instalación de los módulos funcionales
