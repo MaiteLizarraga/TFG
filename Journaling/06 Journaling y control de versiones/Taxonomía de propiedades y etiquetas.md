@@ -1,5 +1,5 @@
 ---
-type: reference
+type: referencia
 area: journaling
 project: TFG Odoo Agentic AI
 status: active
@@ -66,7 +66,8 @@ tags:
 ---
 ```
 
-## Relación con la bóveda
+## Relación con el vault
 
 - [[MOC - Journaling y control de versiones]]
 - [[Inicio - TFG Odoo Agentic AI]]
+- [[Estructura del repositorio de journaling]]
