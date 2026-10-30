@@ -16,6 +16,10 @@ tags:
 - [[Arquitectura objetivo del sistema agentic]]
 - [[Odoo 19 Community como ERP del proyecto]]
 
+## Evaluación
+
+- [[Escenarios de evaluación - cinco niveles de complejidad]]
+
 ## Principios de diseño
 
 - [[Separación entre API, ORM y PostgreSQL]]
