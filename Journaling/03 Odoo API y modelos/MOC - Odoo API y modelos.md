@@ -20,6 +20,7 @@ tags:
 - [[Autenticación mediante API Key]]
 - [[Relación entre pedido de compra y líneas]]
 - [[Dependencias de módulos Odoo y datos de negocio]]
+- [[Instalación de los módulos funcionales]]
 
 ## Modelos de interés
 
