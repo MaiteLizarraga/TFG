@@ -60,3 +60,10 @@ Esta es la arquitectura objetivo. El entorno Odoo/API está probado; la orquesta
 - [[Separación entre API, ORM y PostgreSQL]]
 - [[MCP como capa semántica y controlada]]
 - [[Roadmap de integración]]
+
+
+## Esquema visual del flujo de la prueba de concepto
+
+El siguiente esquema resume el flujo funcional previsto para la prueba de concepto: Odoo activa la investigación mediante una Automation Rule y un webhook; LangGraph coordina los agentes especializados; estos consultan la información del ERP mediante herramientas y la API JSON-2/ORM; y el sistema consolida evidencias y propuestas que se presentan en Streamlit para su revisión humana.
+
+![[Esquema-arquitectura-prueba-concepto.svg]]
