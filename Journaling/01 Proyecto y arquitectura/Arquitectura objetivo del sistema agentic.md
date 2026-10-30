@@ -67,3 +67,10 @@ Esta es la arquitectura objetivo. El entorno Odoo/API está probado; la orquesta
 El siguiente esquema resume el flujo funcional previsto para la prueba de concepto: Odoo activa la investigación mediante una Automation Rule y un webhook; LangGraph coordina los agentes especializados; estos consultan la información del ERP mediante herramientas y la API JSON-2/ORM; y el sistema consolida evidencias y propuestas que se presentan en Streamlit para su revisión humana.
 
 ![[Esquema-arquitectura-prueba-concepto.svg]]
+
+
+## Diseño detallado de orquestación, Jev y evaluación
+
+El diseño detallado de responsabilidades del orquestador, Jev, agentes LLM, herramientas MCP, OdooAPIClient, OpenTelemetry y KPI se recoge en [[Diseño de orquestación, Jev, agentes y evaluación]].
+
+![[Arquitectura-orquestador-Jev-MCP-OpenTelemetry.svg]]

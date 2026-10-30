@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1120" viewBox="0 0 1000 1120">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#64748b"/></marker><style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#172033;text-anchor:middle}.h{font-size:20px;font-weight:bold}.s{font-size:14px;fill:#475569}.box{stroke:#64748b;stroke-width:1.5;rx:12}.a{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr)}
+</style></defs>
+<rect width="1000" height="1120" fill="#fff"/>
+<text x="500" y="38" class="t h">Arquitectura propuesta — Odoo + LangGraph + MCP + Jev</text>
+<rect class="box" x="300" y="65" width="400" height="76" fill="#e8effb"/>
+<text class="t h" x="500" y="95">Odoo Community Edition</text><text class="t s" x="500" y="119">Automation Rule · Trigger · Webhook</text>
+<path class="a" d="M500 141 V177"/>
+<rect class="box" x="250" y="180" width="500" height="92" fill="#e8effb"/>
+<text class="t h" x="500" y="214">LangGraph Orchestrator</text><text class="t s" x="500" y="239">Estado de incidencia · routing · coordinación · iteraciones</text>
+<path class="a" d="M500 272 V305"/>
+<rect class="box" x="300" y="308" width="400" height="78" fill="#e7f5ed"/>
+<text class="t h" x="500" y="339">Jev Choice — clasificación inicial</text><text class="t s" x="500" y="363">Asignación preliminar a uno de los cinco niveles</text>
+<path class="a" d="M500 386 V420"/>
+<rect class="box" x="70" y="425" width="400" height="100" fill="#eef2ff"/>
+<text class="t h" x="270" y="460">PurchaseAgent · LLM</text><text class="t s" x="270" y="485">Compras · proveedores · pedidos · líneas</text><text class="t s" x="270" y="506">Tools MCP de lectura</text>
+<rect class="box" x="530" y="425" width="400" height="100" fill="#eef2ff"/>
+<text class="t h" x="730" y="460">InventoryAgent · LLM</text><text class="t s" x="730" y="485">Existencias · reservas · movimientos</text><text class="t s" x="730" y="506">Tools MCP de lectura</text>
+<rect class="box" x="70" y="560" width="400" height="100" fill="#eef2ff"/>
+<text class="t h" x="270" y="595">ManufacturingAgent · LLM</text><text class="t s" x="270" y="620">Órdenes · BoM · componentes</text><text class="t s" x="270" y="641">Tools MCP de lectura</text>
+<rect class="box" x="530" y="560" width="400" height="100" fill="#eef2ff"/>
+<text class="t h" x="730" y="595">SalesAgent · LLM</text><text class="t s" x="730" y="620">Pedidos · líneas · clientes</text><text class="t s" x="730" y="641">Tools MCP de lectura</text>
+<path class="a" d="M500 420 L270 425"/><path class="a" d="M500 420 L730 425"/><path class="a" d="M270 525 V560"/><path class="a" d="M730 525 V560"/>
+<rect class="box" x="250" y="700" width="500" height="88" fill="#fff7e6"/>
+<text class="t h" x="500" y="734">MCP Server(s) + OdooAPIClient</text><text class="t s" x="500" y="759">Tools compartidas y de dominio · permisos · cliente JSON-2</text>
+<path class="a" d="M270 660 L400 700"/><path class="a" d="M730 660 L600 700"/>
+<path class="a" d="M500 788 V820"/>
+<rect class="box" x="300" y="823" width="400" height="70" fill="#e8effb"/>
+<text class="t h" x="500" y="852">Odoo JSON-2 API → ORM</text><text class="t s" x="500" y="875">Consultas de solo lectura · PostgreSQL detrás del ORM</text>
+<path class="a" d="M500 893 V925"/>
+<rect class="box" x="250" y="928" width="500" height="78" fill="#e7f5ed"/>
+<text class="t h" x="500" y="959">Orchestrator consolida resultados</text><text class="t s" x="500" y="982">Evidencias · hallazgos · hipótesis · propuestas</text>
+<path class="a" d="M500 1006 V1033"/>
+<rect class="box" x="70" y="1036" width="400" height="70" fill="#e7f5ed"/>
+<text class="t h" x="270" y="1065">Jev Score</text><text class="t s" x="270" y="1088">Probabilidades de consecuencias</text>
+<rect class="box" x="530" y="1036" width="400" height="70" fill="#e8effb"/>
+<text class="t h" x="730" y="1065">Streamlit · Human-in-the-Loop</text><text class="t s" x="730" y="1088">Análisis · evidencias · propuestas</text>
+<path class="a" d="M500 1006 L270 1036"/><path class="a" d="M470 1071 H530"/>
+<text class="t s" x="500" y="1117">OpenTelemetry instrumenta el flujo transversalmente; no es un agente ni un KPI.</text>
+</svg>
