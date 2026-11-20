@@ -77,7 +77,7 @@ PostgreSQL
 
 Odoo activa la investigación mediante una Automation Rule y un webhook. LangGraph coordina los agentes especializados; estos consultan la información del ERP mediante herramientas MCP y la API JSON-2/ORM. El sistema consolida evidencias, análisis y propuestas, que se presentan en Streamlit para su revisión humana.
 
-![[Esquema-arquitectura-prueba-concepto.svg]]
+![[img/Esquema-arquitectura-prueba-concepto.svg]]
 
 ### Estado de la arquitectura
 
@@ -85,7 +85,7 @@ Esta es la arquitectura objetivo, no una afirmación de que todos sus componente
 
 El diseño detallado de las responsabilidades del orquestador, Jev, los agentes LLM, las herramientas MCP, OdooAPIClient, OpenTelemetry y los KPI se desarrolla en [[Diseño de orquestación, Jev, agentes y evaluación]].
 
-![[Arquitectura-orquestador-Jev-MCP-OpenTelemetry.svg]]
+![[img/Arquitectura-orquestador-Jev-MCP-OpenTelemetry.svg]]
 
 ## 4. Documentación relacionada
 
