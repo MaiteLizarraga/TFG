@@ -1,7 +1,7 @@
 ---
 type: referencia
 area: odoo
-status: selected
+status: consolidated
 project: TFG Odoo Agentic AI
 tags:
   - odoo/modulos
@@ -9,30 +9,9 @@ tags:
 
 # Odoo 19 Community como ERP del proyecto
 
-## Papel en el TFG
+La información sobre la selección de Odoo 19 Community, sus módulos funcionales y el entorno de referencia se ha integrado en [[Contexto y alcance del TFG]].
 
-Odoo 19 Community es el ERP seleccionado para representar un sistema de información empresarial realista.
-
-Odoo mantiene los datos y ejecuta su lógica de negocio. El sistema agentic lo complementará, sin sustituirlo.
-
-## Módulos funcionales del alcance
-
-- Ventas: `sale_management`
-- Compras: `purchase`
-- Inventario: `stock`
-- Fabricación: `mrp`
-
-Odoo instala también dependencias técnicas de estos módulos. No deben confundirse con nuevas áreas funcionales del proyecto.
-
-## Entorno actual
-
-- Versión: Odoo 19 Community.
-- Base de datos de trabajo: `Odoo-tfg`.
-- Acceso web local: `http://localhost:8069`.
-- API utilizada: JSON-2.
-
-## Enlaces
-
-- [[Contexto y alcance del TFG]]
+Para los detalles técnicos, consulta también:
 - [[Instalación de los módulos funcionales]]
 - [[API JSON-2 de Odoo]]
+- [[Dependencias de módulos Odoo y datos de negocio]]
