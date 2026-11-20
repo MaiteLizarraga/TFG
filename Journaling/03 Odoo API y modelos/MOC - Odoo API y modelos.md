@@ -14,13 +14,10 @@ tags:
 
 ## Conceptos fundamentales
 
-- [[Separación entre API, ORM y PostgreSQL]]
-- [[ORM de Odoo]]
 - [[API JSON-2 de Odoo]]
-- [[Autenticación mediante API Key]]
-- [[Relación entre pedido de compra y líneas]]
+- [[ORM de Odoo y PostgreSQL]]
+- [[Modelos de compras - purchase.order]]
 - [[Dependencias de módulos Odoo y datos de negocio]]
-- [[Instalación de los módulos funcionales]]
 
 ## Modelos de interés
 
@@ -37,8 +34,8 @@ tags:
 ## Pruebas realizadas
 
 - [[Primera consulta a la API JSON-2]]
-- [[Carga de datos de demostración]]
-- [[Exploración de purchase.order]]
+- [[Carga de datos dummy]]
+- [[Instalación de los módulos funcionales]]
 
 ## Regla de diseño
 
