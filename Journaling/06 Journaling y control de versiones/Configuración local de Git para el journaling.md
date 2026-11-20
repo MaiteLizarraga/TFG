@@ -48,7 +48,7 @@ git add .
 git commit -m "added Obsidian Journaling"
 ```
 
-El commit inicial registrado fue `0ae1d81` (`added Obsidian Journaling`). La autenticación SSH y la publicación en GitHub se documentan en [[Autenticación SSH con GitHub]] y [[GitHub como repositorio de seguimiento del TFG]].
+El commit inicial registrado fue `0ae1d81` (`added Obsidian Journaling`). La autenticación SSH y la publicación en GitHub se documentan en [[Autenticación SSH con GitHub]] y [[Estructura y sincronización del repositorio]].
 
 ## Flujo de trabajo para registrar cambios
 
@@ -82,4 +82,4 @@ git status
 
 No añadir credenciales, tokens ni claves privadas al repositorio. Como `__WIP_to_journal/` también se sincroniza con GitHub, debe tratarse como contenido remoto compartido con quienes tengan acceso al repositorio privado, no como un espacio exclusivamente local.
 
-Relacionado: [[Estructura del repositorio de journaling]] y [[GitHub como repositorio de seguimiento del TFG]].
+Relacionado: [[Estructura y sincronización del repositorio]] y [[Autenticación SSH con GitHub]].
