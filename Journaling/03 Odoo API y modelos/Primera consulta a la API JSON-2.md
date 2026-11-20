@@ -52,5 +52,5 @@ La API de Odoo estaba operativa en el entorno del TFG en el momento de la prueba
 ## Enlaces
 
 - [[API JSON-2 de Odoo]]
-- [[Autenticación mediante API Key]]
-- [[Exploración de purchase.order]]
+- [[API JSON-2 de Odoo]]
+- [[Modelos de compras - purchase.order]]
