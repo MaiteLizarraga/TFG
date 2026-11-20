@@ -31,6 +31,11 @@ tags:
 - `mrp.production`
 - `sale.order`
 
+## Datos de prueba y generación
+
+- [[Estrategia de datos de prueba]]
+- [[Carga de datos dummy]]
+
 ## Pruebas realizadas
 
 - [[Primera consulta a la API JSON-2]]
