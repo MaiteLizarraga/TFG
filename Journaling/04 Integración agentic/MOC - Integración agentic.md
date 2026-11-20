@@ -12,21 +12,26 @@ tags:
 
 ## Diseño de integración
 
-- [[Arquitectura objetivo del sistema agentic]]
+- [[Decisiones arquitectónicas del sistema]]
 - [[MCP como capa semántica y controlada]]
-- [[Herramientas MCP previstas]]
 - [[Human-in-the-loop y rol del FDE]]
 - [[Observabilidad del sistema agentic]]
 
-## Agentes
+## Agentes especializados
 
-- [[Purchase Agent]]
-- [[Inventory Agent]]
-- [[Manufacturing Agent]]
-- [[Sales Agent]]
+- [[Agentes especializados]]
+
+## Persistencia y datos
+
+- [[Persistencia de IncidentAnalysis]]
+- [[Estrategia de datos de prueba]]
 
 ## Próximos desarrollos
 
 - [[Roadmap de integración]]
-- [[Estrategia de datos de prueba]]
-- [[Persistencia de IncidentAnalysis]]
+
+## Relación con otras secciones
+
+- [[API JSON-2 de Odoo]]
+- [[ORM de Odoo y PostgreSQL]]
+- [[Carga de datos dummy]]
