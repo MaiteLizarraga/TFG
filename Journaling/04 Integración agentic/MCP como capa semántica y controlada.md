@@ -17,16 +17,6 @@ MCP actuará como una capa controlada entre los agentes y la API JSON-2 de Odoo.
 
 La intención es ofrecer herramientas de negocio semánticas, en lugar de permitir que el LLM construya consultas arbitrarias sobre los modelos de Odoo.
 
-## Ejemplos de herramientas previstas
-
-- `get_purchase_order()`
-- `get_purchase_order_lines()`
-- `get_supplier()`
-- `get_stock()`
-- `get_incoming_shipments()`
-- `get_manufacturing_orders()`
-- `get_sales_commitments()`
-
 ## Flujo de acceso
 
 ```text
@@ -41,8 +31,36 @@ Odoo ORM
 PostgreSQL
 ```
 
+Los agentes no accederán directamente a PostgreSQL. Las herramientas MCP encapsularán las operaciones permitidas y expondrán una interfaz orientada al dominio de negocio.
+
+## Herramientas previstas
+
+Las siguientes herramientas forman parte del diseño inicial. Su documentación no implica que estén implementadas:
+
+| Herramienta | Propósito previsto |
+|---|---|
+| `get_purchase_order()` | Recuperar información de un pedido de compra |
+| `get_purchase_order_lines()` | Consultar las líneas de un pedido |
+| `get_supplier()` | Consultar información de proveedor |
+| `get_stock()` | Consultar disponibilidad o datos de stock |
+| `get_incoming_shipments()` | Consultar recepciones entrantes |
+| `get_manufacturing_orders()` | Consultar órdenes de fabricación |
+| `get_sales_commitments()` | Consultar compromisos de venta |
+
+## Criterios de diseño pendientes
+
+- Esquema de entrada y salida.
+- Validación de parámetros.
+- Autorización y permisos.
+- Manejo de errores.
+- Límites de resultados.
+- Trazabilidad y correlación con la incidencia.
+- Diferenciación entre herramientas de lectura y de escritura.
+
 ## Enlaces
 
 - [[Decisiones arquitectónicas del sistema]]
+- [[API JSON-2 de Odoo]]
 - [[ORM de Odoo y PostgreSQL]]
-- [[Herramientas MCP previstas]]
+- [[Agentes especializados]]
+- [[Roadmap de integración]]
