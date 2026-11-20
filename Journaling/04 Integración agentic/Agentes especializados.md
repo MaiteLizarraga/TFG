@@ -59,6 +59,5 @@ Los cuatro agentes están previstos en el diseño de la arquitectura. La impleme
 
 - [[Decisiones arquitectónicas del sistema]]
 - [[MCP como capa semántica y controlada]]
-- [[Herramientas MCP previstas]]
 - [[Human-in-the-loop y rol del FDE]]
 - [[Roadmap de integración]]
