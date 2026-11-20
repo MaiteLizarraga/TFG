@@ -26,8 +26,10 @@ El resultado de análisis de una incidencia se plantea como un objeto estructura
 
 El esquema definitivo, el ciclo de vida, las políticas de retención y la relación con los registros de Odoo aún deben especificarse.
 
+También queda por definir cómo se enlazará cada análisis con la incidencia de origen y con las trazas de observabilidad.
+
 ## Enlaces
 
-- [[Arquitectura objetivo del sistema agentic]]
-- [[Roadmap de integración]]
+- [[Decisiones arquitectónicas del sistema]]
 - [[Observabilidad del sistema agentic]]
+- [[Roadmap de integración]]
