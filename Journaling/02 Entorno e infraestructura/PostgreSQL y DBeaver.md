@@ -32,10 +32,10 @@ Se utiliza para inspeccionar la estructura física de la base de datos, explorar
 
 ## Consideración de seguridad
 
-El origen documenta que PostgreSQL está publicado en todas las interfaces. Revisa si basta con `127.0.0.1:5432` para el uso local de DBeaver.
+El despliegue documenta PostgreSQL publicado en todas las interfaces. Revisa si basta con `127.0.0.1:5432` para el uso local de DBeaver.
 
 ## Enlaces
 
 - [[Separación entre API, ORM y PostgreSQL]]
-- [[Configuración Docker Compose de Odoo]]
+- [[Docker y despliegue de Odoo]]
 - [[Roadmap de integración]]
