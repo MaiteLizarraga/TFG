@@ -26,7 +26,7 @@ Este índice reúne la documentación principal del contexto, las decisiones de 
 
 ## Principios y documentación técnica relacionada
 
-- [[Separación entre API, ORM y PostgreSQL]]
+- [[ORM de Odoo y PostgreSQL]]
 - [[MCP como capa semántica y controlada]]
 - [[Human-in-the-loop y rol del FDE]]
 - [[Observabilidad del sistema agentic]]
