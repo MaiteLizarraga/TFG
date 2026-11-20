@@ -13,16 +13,13 @@ tags:
 ## Máquina y herramientas
 
 - [[Entorno Ubuntu-TFG]]
-- [[Docker y Docker Compose]]
-- [[Configuración Docker Compose de Odoo]]
+- [[Docker y despliegue de Odoo]]
 - [[PostgreSQL y DBeaver]]
 
-## Despliegue y configuración
+## Configuración funcional
 
-- [[Configuración de Odoo dentro del contenedor]]
-- [[Incidencia - permisos del directorio de datos de Odoo]]
 - [[Instalación de los módulos funcionales]]
-- [[Carga de datos de demostración]]
+- [[Carga de datos dummy]]
 
 ## Estado operativo
 
