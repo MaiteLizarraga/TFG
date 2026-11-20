@@ -50,8 +50,11 @@ Pedido de venta
 
 Definir generador, volumen, consistencia referencial, casos nominales y escenarios de incidencia.
 
+La carga de datos dummy ya documentada sirve como punto de partida; la estrategia de generación masiva y los escenarios específicos siguen pendientes.
+
 ## Enlaces
 
-- [[Carga de datos de demostración]]
+- [[Carga de datos dummy]]
 - [[API JSON-2 de Odoo]]
+- [[Modelos de compras - purchase.order]]
 - [[Roadmap de integración]]
