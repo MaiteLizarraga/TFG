@@ -230,7 +230,7 @@ El sistema investiga, analiza y propone. En el alcance inicial:
 
 ## Enlaces relacionados
 
-- [[Arquitectura objetivo del sistema agentic]]
+- [[Decisiones arquitectónicas del sistema]]
 - [[Decisiones arquitectónicas del sistema]]
 - [[MCP como capa semántica y controlada]]
 - [[Herramientas MCP previstas]]
