@@ -41,4 +41,4 @@ Editar una nota en Obsidian
 
 Antes de activar la automatización, revisar la configuración del complemento y confirmar qué archivos se publicarán. Mantener fuera del repositorio las claves privadas, tokens y otros secretos.
 
-Relacionado: [[GitHub como repositorio de seguimiento del TFG]].
+Relacionado: [[Estructura y sincronización del repositorio]].
