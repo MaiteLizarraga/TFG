@@ -43,5 +43,5 @@ La documentación del proyecto se mantiene separada del entorno de ejecución me
 
 ## Enlaces
 
-- [[Docker y Docker Compose]]
+- [[Docker y despliegue de Odoo]]
 - [[Estado actual del entorno]]
