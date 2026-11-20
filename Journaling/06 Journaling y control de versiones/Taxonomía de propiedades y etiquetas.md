@@ -71,4 +71,4 @@ tags:
 
 - [[MOC - Journaling y control de versiones]]
 - [[Inicio - TFG Odoo Agentic AI]]
-- [[Estructura del repositorio de journaling]]
+- [[Estructura y sincronización del repositorio]]
