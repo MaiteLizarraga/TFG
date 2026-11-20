@@ -40,6 +40,6 @@ Pasar de la instalación y exploración a la construcción de la integración.
 ## Enlaces
 
 - [[Entorno Ubuntu-TFG]]
-- [[Docker y Docker Compose]]
+- [[Docker y despliegue de Odoo]]
 - [[API JSON-2 de Odoo]]
 - [[Roadmap de integración]]
