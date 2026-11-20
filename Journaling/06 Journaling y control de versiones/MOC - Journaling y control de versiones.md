@@ -10,25 +10,24 @@ tags:
 
 # MOC — Journaling y control de versiones
 
-## Configuración y repositorio
+## Estructura y sincronización
 
-- [[GitHub como repositorio de seguimiento del TFG]]
-- [[Configuración local de Git para el journaling]]
-- [[Autenticación SSH con GitHub]]
-- [[Estructura del repositorio de journaling]]
+- [[Estructura y sincronización del repositorio]] — estructura del vault, carpetas versionadas, exclusiones y sincronización local/remota.
+- [[Configuración local de Git para el journaling]] — instalación, identidad, `.gitignore` y comandos de versionado.
+- [[Autenticación SSH con GitHub]] — generación y verificación de la clave SSH.
 
 ## Colaboración con ChatGPT
 
-- [[Colaboración con ChatGPT mediante GitHub]]
+- [[Colaboración con ChatGPT mediante GitHub]] — permisos, límites de autorización y forma de trabajo.
 
 ## Convenciones del vault
 
-- [[Taxonomía de propiedades y etiquetas]]
+- [[Taxonomía de propiedades y etiquetas]] — propiedades, etiquetas y enlaces internos.
 
 ## Automatización pendiente
 
-- [[Automatización con Obsidian Git]]
+- [[Automatización con Obsidian Git]] — configuración prevista y tareas pendientes.
 
 ## Relación con el proyecto
 
-El repositorio versiona tanto el conocimiento consolidado de `Journaling/` como las notas provisionales de `__WIP_to_journal/`. La carpeta `Admin/` queda excluida mediante `.gitignore`. Los acuerdos de colaboración y el flujo de sincronización se documentan en la nota correspondiente. Este sistema de documentación y control de versiones es independiente del entorno de ejecución de Odoo.
+El repositorio versiona tanto el conocimiento consolidado de `Journaling/` como las notas provisionales de `__WIP_to_journal/`. La carpeta `Admin/` queda excluida mediante `.gitignore`. Este sistema de documentación y control de versiones es independiente del entorno de ejecución de Odoo.
