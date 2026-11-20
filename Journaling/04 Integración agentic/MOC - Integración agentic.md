@@ -21,10 +21,9 @@ tags:
 
 - [[Agentes especializados]]
 
-## Persistencia y datos
+## Persistencia
 
 - [[Persistencia de IncidentAnalysis]]
-- [[Estrategia de datos de prueba]]
 
 ## Próximos desarrollos
 
