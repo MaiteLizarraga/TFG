@@ -92,7 +92,7 @@ El diseño detallado de las responsabilidades del orquestador, Jev, los agentes 
 - [[Contexto y alcance del TFG]] — objetivo, ERP, módulos y límites funcionales.
 - [[Diseño de orquestación, Jev, agentes y evaluación]] — diseño detallado de la solución.
 - [[Escenarios de evaluación - cinco niveles de complejidad]] — escenarios de referencia.
-- [[Separación entre API, ORM y PostgreSQL]] — separación de responsabilidades en el acceso a datos.
+- [[ORM de Odoo y PostgreSQL]] — separación de responsabilidades en el acceso a datos.
 - [[MCP como capa semántica y controlada]] — integración de herramientas.
 - [[Human-in-the-loop y rol del FDE]] — supervisión humana y responsabilidades.
 - [[Observabilidad del sistema agentic]] — instrumentación y observabilidad.
