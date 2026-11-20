@@ -44,5 +44,5 @@ PostgreSQL
 ## Enlaces
 
 - [[Decisiones arquitectónicas del sistema]]
-- [[Separación entre API, ORM y PostgreSQL]]
+- [[ORM de Odoo y PostgreSQL]]
 - [[Herramientas MCP previstas]]
