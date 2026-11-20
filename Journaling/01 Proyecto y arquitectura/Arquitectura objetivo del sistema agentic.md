@@ -1,7 +1,7 @@
 ---
-type: concepto
+type: referencia
 area: arquitectura
-status: planned
+status: consolidated
 project: TFG Odoo Agentic AI
 tags:
   - arquitectura/multiagente
@@ -10,67 +10,6 @@ tags:
 
 # Arquitectura objetivo del sistema agentic
 
-## Flujo propuesto
+El contenido de este documento se ha integrado en [[Decisiones arquitectónicas del sistema]], que reúne las decisiones arquitectónicas, el flujo objetivo, los componentes y los esquemas visuales de la prueba de concepto.
 
-```text
-HUMAN
-  ↓
-ODOO
-  ↓
-Automation Rule
-  ↓
-Webhook
-  ↓
-FastAPI / LangGraph
-  ↓
-Orchestrator
-  ├── Purchase Agent
-  ├── Inventory Agent
-  ├── Manufacturing Agent
-  └── Sales Agent
-  ↓
-MCP
-  ↓
-Odoo JSON-2 API
-  ↓
-Odoo ORM
-  ↓
-PostgreSQL
-```
-
-## Componentes
-
-- **Odoo:** sistema de información empresarial y responsable de la lógica de negocio.
-- **Automation Rule / Webhook:** mecanismo previsto para iniciar el flujo ante determinados eventos.
-- **FastAPI / LangGraph:** capa de integración y orquestación prevista.
-- **Orchestrator:** coordina el trabajo de los agentes.
-- **Agentes especializados:** analizan información de las áreas funcionales correspondientes.
-- **MCP:** expone herramientas semánticas controladas.
-- **JSON-2 API:** interfaz externa de acceso a Odoo.
-- **ORM:** capa interna de Odoo que interactúa con la base de datos.
-- **PostgreSQL:** persistencia de Odoo.
-
-## Estado
-
-Esta es la arquitectura objetivo. El entorno Odoo/API está probado; la orquestación y los agentes forman parte de fases posteriores.
-
-## Enlaces
-
-- [[Decisiones arquitectónicas del sistema]]
-- [[Separación entre API, ORM y PostgreSQL]]
-- [[MCP como capa semántica y controlada]]
-- [[Roadmap de integración]]
-
-
-## Esquema visual del flujo de la prueba de concepto
-
-El siguiente esquema resume el flujo funcional previsto para la prueba de concepto: Odoo activa la investigación mediante una Automation Rule y un webhook; LangGraph coordina los agentes especializados; estos consultan la información del ERP mediante herramientas y la API JSON-2/ORM; y el sistema consolida evidencias y propuestas que se presentan en Streamlit para su revisión humana.
-
-![[Esquema-arquitectura-prueba-concepto.svg]]
-
-
-## Diseño detallado de orquestación, Jev y evaluación
-
-El diseño detallado de responsabilidades del orquestador, Jev, agentes LLM, herramientas MCP, OdooAPIClient, OpenTelemetry y KPI se recoge en [[Diseño de orquestación, Jev, agentes y evaluación]].
-
-![[Arquitectura-orquestador-Jev-MCP-OpenTelemetry.svg]]
+Para el diseño detallado del orquestador, Jev, los agentes, MCP, OdooAPIClient, OpenTelemetry y los KPI, consulta [[Diseño de orquestación, Jev, agentes y evaluación]].
