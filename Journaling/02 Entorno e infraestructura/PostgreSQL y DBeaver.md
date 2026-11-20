@@ -36,6 +36,6 @@ El despliegue documenta PostgreSQL publicado en todas las interfaces. Revisa si 
 
 ## Enlaces
 
-- [[Separación entre API, ORM y PostgreSQL]]
+- [[ORM de Odoo y PostgreSQL]]
 - [[Docker y despliegue de Odoo]]
 - [[Roadmap de integración]]
