@@ -29,8 +29,8 @@ Este índice reúne la documentación principal del contexto, las decisiones de 
 - [[ORM de Odoo y PostgreSQL]]
 - [[MCP como capa semántica y controlada]]
 - [[Human-in-the-loop y rol del FDE]]
+- [[Agentes especializados]]
 - [[Observabilidad del sistema agentic]]
-- [[Herramientas MCP previstas]]
 - [[Persistencia de IncidentAnalysis]]
 - [[Dependencias de módulos Odoo y datos de negocio]]
 - [[API JSON-2 de Odoo]]
@@ -57,13 +57,6 @@ Consolidación de evidencias y propuestas
         ↓
 Streamlit → revisión humana
 ```
-
-## Agentes previstos
-
-- [[Purchase Agent]]
-- [[Inventory Agent]]
-- [[Manufacturing Agent]]
-- [[Sales Agent]]
 
 > [!note] Estado
 > La arquitectura anterior es el diseño objetivo documentado. No implica que todos sus componentes estén implementados.
