@@ -44,3 +44,4 @@ La API es la puerta de entrada. El ORM permanece dentro de Odoo y es quien inter
 - [[Autenticación mediante API Key]]
 - [[Primera consulta a la API JSON-2]]
 - [[Separación entre API, ORM y PostgreSQL]]
+
