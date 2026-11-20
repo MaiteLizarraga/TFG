@@ -30,15 +30,19 @@ tags:
 ## Fase de integración
 
 - [ ] Diseñar e implementar herramientas MCP semánticas.
-- [ ] Integrar las herramientas con los agentes.
+- [ ] Integrar las herramientas con los agentes especializados.
 - [ ] Implementar la orquestación mediante LangGraph.
 - [ ] Diseñar disparadores mediante reglas de automatización y webhooks.
 - [ ] Definir el esquema y ciclo de vida de `IncidentAnalysis`.
 - [ ] Añadir persistencia en una base de datos independiente (`agentic_db`).
 - [ ] Incorporar observabilidad con Langfuse.
+- [ ] Definir las reglas de supervisión y aprobación humana.
 
 ## Enlaces
 
 - [[Estado actual del entorno]]
 - [[Estrategia de datos de prueba]]
-- [[Herramientas MCP previstas]]
+- [[MCP como capa semántica y controlada]]
+- [[Agentes especializados]]
+- [[Persistencia de IncidentAnalysis]]
+- [[Observabilidad del sistema agentic]]
