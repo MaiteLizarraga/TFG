@@ -124,5 +124,5 @@ Esta comparación permite evaluar el comportamiento del sistema frente a una ref
 ## Enlaces relacionados
 
 - [[Contexto y alcance del TFG]]
-- [[Arquitectura objetivo del sistema agentic]]
+- [[Decisiones arquitectónicas del sistema]]
 - [[Dependencias de módulos Odoo y datos de negocio]]
