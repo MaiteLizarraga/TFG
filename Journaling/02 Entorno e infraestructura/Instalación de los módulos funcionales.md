@@ -36,6 +36,6 @@ La instalación de dependencias adicionales es normal y no amplía por sí sola 
 
 ## Relacionado
 
-- [[Odoo 19 Community como ERP del proyecto]]
+- [[Contexto y alcance del TFG]]
 - [[Dependencias de módulos Odoo y datos de negocio]]
 - [[Registro de problemas técnicos]]
