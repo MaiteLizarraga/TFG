@@ -23,8 +23,11 @@ Se ha previsto incorporar Langfuse para observabilidad y trazas.
 - Cómo se correlacionan las trazas con cada incidencia.
 - Qué información de análisis y ejecución se conserva.
 - Cómo se evitan secretos y datos sensibles en los registros.
+- Cómo se relacionan las trazas del orquestador con las llamadas a agentes y herramientas MCP.
 
 ## Enlaces
 
 - [[Decisiones arquitectónicas del sistema]]
+- [[MCP como capa semántica y controlada]]
+- [[Persistencia de IncidentAnalysis]]
 - [[Roadmap de integración]]
