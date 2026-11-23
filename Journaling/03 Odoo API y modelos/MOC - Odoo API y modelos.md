@@ -36,6 +36,8 @@ tags:
 
 ## Datos de prueba y generación
 
+- [[Inventario del esquema de Odoo]] — inventario de modelos, campos, relaciones y estructuras SQL de Odoo 19.
+
 - [[Estrategia de datos de prueba]] — escenario sintético de fabricante y distribuidora de sushi, productos, BoM, trazabilidad por lotes, caducidades y cinco experimentos.
 - [[Carga de datos dummy]]
 
