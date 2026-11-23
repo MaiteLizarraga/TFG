@@ -1,7 +1,7 @@
 ---
 type: referencia
 area: evaluacion
-status: proposed
+status: active
 project: TFG Odoo Agentic AI
 tags:
   - evaluacion/escenarios
@@ -17,6 +17,20 @@ tags:
 Definir un único tipo de incidencia de Supply Chain con cinco niveles de complejidad creciente. Cada nivel establece qué información debe recuperar el sistema, qué módulos y procesos debe investigar, qué relaciones debe identificar, qué evidencias debe obtener y qué conclusión o propuesta sería aceptable.
 
 Esta definición constituye una primera propuesta funcional del escenario de evaluación. Los escenarios deberán concretarse posteriormente mediante registros, identificadores, cantidades, fechas y relaciones verificables en los datos sintéticos de Odoo.
+
+## Instanciación concreta del escenario
+
+La instanciación de los cinco niveles se ha concretado en [[Estrategia de datos de prueba]], que es la fuente de referencia para las entidades, cantidades, lotes, caducidades, documentos y configuración de los experimentos.
+
+El caso de prueba representa una empresa fabricante y distribuidora de sushi que produce 10.000 bandejas diarias: 5.000 de 10 piezas y 5.000 de 15 piezas. Se utiliza una receta lógica común para ambos formatos, con cinco ingredientes: salmón fresco, arroz para sushi, alga nori, aguacate y queso crema. La receta consume por bandeja 0,30 kg de salmón, 0,25 kg de arroz, 2 unidades de nori, 0,20 kg de aguacate y 0,10 kg de queso crema.
+
+El escenario base parte de una situación estable, con stock inicial suficiente para dos días de consumo de todos los ingredientes. La reducción de disponibilidad del salmón se introduce mediante un trigger reproducible durante los experimentos; no se parte de un retraso de proveedor ni de un déficit inicial. Se utiliza trazabilidad por lotes y fechas de caducidad para ingredientes y productos terminados.
+
+La red de negocio incluye dos proveedores y cinco clientes. El segundo proveedor se incorpora como alternativa únicamente en el nivel 5. Los experimentos aumentan progresivamente desde Compras e Inventario, disponibilidad y caducidad, Fabricación, compromisos comerciales y comparación de alternativas con aprobación humana.
+
+La tabla y el detalle de cantidades operativas, pedidos, órdenes de fabricación, lotes y stock inicial se mantienen en [[Estrategia de datos de prueba]] para evitar duplicar y desincronizar la especificación.
+
+> **Nota de alcance:** las descripciones genéricas de incidencia de los niveles que siguen explican la progresión de complejidad. Para ejecutar y evaluar el TFG se aplican las condiciones concretas de la empresa de sushi y el trigger descritos en [[Estrategia de datos de prueba]].
 
 ## Incidencia de referencia
 
