@@ -21,19 +21,22 @@ tags:
 
 ## Modelos de interés
 
-- `purchase.order`
-- `purchase.order.line`
 - `res.partner`
+- `product.template`
 - `product.product`
-- `stock.quant`
+- `uom.uom`
+- `purchase.order` y `purchase.order.line`
+- `sale.order` y `sale.order.line`
+- `mrp.bom` y `mrp.bom.line`
+- `mrp.production`
 - `stock.picking`
 - `stock.move`
-- `mrp.production`
-- `sale.order`
+- `stock.quant`
+- `stock.lot`
 
 ## Datos de prueba y generación
 
-- [[Estrategia de datos de prueba]]
+- [[Estrategia de datos de prueba]] — escenario sintético de fabricante y distribuidora de sushi, productos, BoM, trazabilidad por lotes, caducidades y cinco experimentos.
 - [[Carga de datos dummy]]
 
 ## Pruebas realizadas
@@ -42,6 +45,9 @@ tags:
 - [[Carga de datos dummy]]
 - [[Instalación de los módulos funcionales]]
 
-## Regla de diseño
+## Reglas de diseño
 
-Los agentes acceden a Odoo mediante herramientas semánticas MCP y la API; no consultan ni modifican directamente PostgreSQL.
+- Los agentes acceden a Odoo mediante herramientas semánticas MCP y la API; no consultan ni modifican directamente PostgreSQL.
+- Los datos sintéticos se crean mediante la API JSON-2/ORM y los flujos estándar de Odoo.
+- Los lotes y las caducidades forman parte del escenario de inventario y fabricación.
+- No se presume una vinculación automática entre pedidos de venta y órdenes de fabricación: se verifican rutas y reglas; si no existe, la correspondencia se conserva en el manifiesto.
